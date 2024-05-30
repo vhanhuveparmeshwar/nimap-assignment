@@ -1,0 +1,41 @@
+/* src/components/MovieCard.css */
+
+.movie-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .movie-card h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .movie-card p {
+    margin: 5px 0;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+
+  .title{
+    font-family: "Roboto";
+    color: black;
+    font-weight: 800;
+  }
+  
+  .rating{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: darkslategrey;
+    font-weight: 500;
+  }
+  

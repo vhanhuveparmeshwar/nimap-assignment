@@ -1,0 +1,73 @@
+
+
+.movie-detail {
+    padding: 20px;
+  }
+  
+  .movie-header {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .movie-info {
+    max-width: 600px;
+  }
+  
+  .movie-info h1 {
+    margin: 0;
+  }
+  
+  .movie-info p {
+    margin: 5px 0;
+  }
+  
+  .cast-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .cast-member {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .cast-member img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .title{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+  }
+
+  .overview{
+    font-family: "Roboto";
+    font-size: 22px;
+    color: darkslategrey;
+    font-weight: 500;
+  }
+
+  .date{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: darkslategray;
+    font-weight: 500;
+  }
+
+  .rating{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: darkslategrey;
+    font-weight: 500;
+  }
+
+  .name{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: darkslategrey;
+    font-weight: 500;
+  }

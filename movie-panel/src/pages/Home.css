@@ -1,0 +1,19 @@
+
+.home {
+    padding: 20px;
+  }
+  
+  .movieGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  
+  .title{
+    font-family: "Roboto";
+    font-size: 35px;
+    color: black;
+    font-weight: 800;
+  }
+

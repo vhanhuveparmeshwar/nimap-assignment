@@ -1,0 +1,45 @@
+/* src/App.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    padding: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+  }
+  
+  .movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  
+  .movie-card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: 200px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+  }
+/*
+  .title{
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+  }
+
+  .realse-date{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  */
